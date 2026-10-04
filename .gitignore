@@ -1,0 +1,12 @@
+target/
+dbt_packages/
+logs/
+.venv/
+.user.yml
+/profiles.yml
+*.p8
+*.pem
+*.der
+*.duckdb
+*.duckdb.wal
+.env
