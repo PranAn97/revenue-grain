@@ -1,0 +1,9 @@
+revenue_grain:
+  target: ci
+  outputs:
+    ci:
+      type: duckdb
+      path: ci.duckdb
+      threads: 4
+      extensions:
+        - tpch
