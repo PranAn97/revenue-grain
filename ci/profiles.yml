@@ -7,3 +7,9 @@ revenue_grain:
       threads: 4
       extensions:
         - tpch
+    prod:
+      type: duckdb
+      path: prod.duckdb
+      threads: 4
+      extensions:
+        - tpch
