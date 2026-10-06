@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: tpch
+    description: "TPCH benchmark data generated locally by the DuckDB tpch extension."
+    schema: main
+    tables:
+      - name: orders
+        description: "One row per customer order."
+      - name: lineitem
+        description: "One row per line on an order. The grain of the revenue fact."
+      - name: customer
+        description: "One row per customer."
+      - name: nation
+        description: "One row per nation."
+      - name: region
+        description: "One row per region."
+      - name: part
+        description: "One row per part sold."
+      - name: supplier
+        description: "One row per supplier."
